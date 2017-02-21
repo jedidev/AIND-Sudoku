@@ -3,7 +3,8 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The identified constraint here is that for any given pair of boxes within a unit (row, column, or square) that share the same pair of possible values, no other box within the unit may resolve to either of these 2 values.
+The naked twins method searches for all boxes which have a duplex set of possible values and then tries to match that value set with other boxes in it’s peer units.  If a match is found both values are then eliminated from all other boxes in the unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
