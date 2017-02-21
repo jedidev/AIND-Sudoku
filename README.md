@@ -8,7 +8,7 @@ The naked twins method searches for all boxes which have a duplex set of possibl
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: The existing constraints of uniqueness within units (row, column & square) are specified and then handled in a generic way by the puzzle strategy methods.  Implementing the diagonal constraint was simply a matter of adding a new unit calculation (diagonal_units) and adding this object to the unitlist.
 
 ### Install
 
